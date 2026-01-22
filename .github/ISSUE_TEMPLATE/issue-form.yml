@@ -1,0 +1,11 @@
+name: 'Today I Learned'
+description: '오늘 본인이 공부한 내용을 정리합니다.'
+labels: [docs]
+title: '이슈 이름을 작성해주세요'
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: '📝 공부 내용'
+    validations:
+      required: true
