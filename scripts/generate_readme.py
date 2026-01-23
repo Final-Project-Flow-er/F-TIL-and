@@ -3,6 +3,11 @@ from pathlib import Path
 from collections import defaultdict
 from datetime import datetime
 
+# 스크립트가 어디서 실행되든 repository 루트로 이동
+script_dir = Path(__file__).parent
+repo_root = script_dir.parent
+os.chdir(repo_root)
+
 def get_markdown_files():
     """모든 .md 파일을 찾아서 기술/작성자 구조로 분류"""
     structure = defaultdict(lambda: defaultdict(list))
@@ -18,11 +23,12 @@ def get_markdown_files():
                 path_parts = Path(root).parts
 
                 # 폴더 구조: ./기술/작성자/파일.md
-                if len(path_parts) >= 3:
-                    tech_category = path_parts[1]  # 첫 번째 폴더 = 기술 (JPA, Spring, Redis 등)
-                    author = path_parts[2]         # 두 번째 폴더 = 작성자
-                elif len(path_parts) == 2:
-                    tech_category = path_parts[1]
+                # path_parts는 '.'을 제외한 ('Redis', '조윤호') 형태
+                if len(path_parts) >= 2:
+                    tech_category = path_parts[0]  # 첫 번째 = 기술
+                    author = path_parts[1]         # 두 번째 = 작성자
+                elif len(path_parts) == 1:
+                    tech_category = path_parts[0]  # 기술만
                     author = None
                 else:
                     tech_category = 'Uncategorized'
@@ -70,21 +76,19 @@ def generate_readme():
 
 """
 
-    # 기술 카테고리별로 정리 (알파벳순)
+    # 기술 카테고리별로 정리
     for tech_category in sorted(structure.keys()):
-        # 기술 카테고리 헤더 출력 (여기가 중요!)
         readme_content += f"\n### {tech_category}\n"
 
         authors_dict = structure[tech_category]
 
-        # 작성자별로 정리 (가나다순)
+        # 작성자별로 정리
         for author in sorted([a for a in authors_dict.keys() if a != '_no_author']):
             readme_content += f"\n**👤 {author}**\n\n"
             files = sorted(authors_dict[author], key=lambda x: x['modified'], reverse=True)
             for file_info in files:
                 readme_content += f"- [{file_info['title']}]({file_info['path']})\n"
 
-        # 작성자 폴더 없는 파일들
         if '_no_author' in authors_dict:
             files = sorted(authors_dict['_no_author'], key=lambda x: x['modified'], reverse=True)
             for file_info in files:
