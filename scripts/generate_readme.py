@@ -4,7 +4,7 @@ from collections import defaultdict
 from datetime import datetime
 
 def get_markdown_files():
-    """모든 .md 파일을 찾아서 계층 구조로 분류"""
+    """모든 .md 파일을 찾아서 기술/작성자 구조로 분류"""
     structure = defaultdict(lambda: defaultdict(list))
     all_files = []
 
@@ -17,33 +17,13 @@ def get_markdown_files():
                 file_path = os.path.join(root, file)
                 path_parts = Path(root).parts
 
-                # 폴더 구조가 ./작성자/기술 또는 ./기술/작성자 인지 판단
-                tech_category = None
-                author = None
-
-                if len(path_parts) >= 3:  # ./레벨1/레벨2
-                    # 첫 번째 폴더가 기술인지 작성자인지 판단
-                    # 한글이면 작성자, 영어면 기술로 가정
-                    first_folder = path_parts[1]
-                    second_folder = path_parts[2]
-
-                    # 한글 포함 여부로 판단
-                    if any('\uac00' <= c <= '\ud7a3' for c in first_folder):
-                        # 작성자 → 기술
-                        author = first_folder
-                        tech_category = second_folder
-                    else:
-                        # 기술 → 작성자
-                        tech_category = first_folder
-                        author = second_folder
-                elif len(path_parts) == 2:  # ./폴더
-                    folder = path_parts[1]
-                    if any('\uac00' <= c <= '\ud7a3' for c in folder):
-                        author = folder
-                        tech_category = 'Uncategorized'
-                    else:
-                        tech_category = folder
-                        author = None
+                # 폴더 구조: ./기술/작성자/파일.md
+                if len(path_parts) >= 3:
+                    tech_category = path_parts[1]  # 첫 번째 폴더 = 기술
+                    author = path_parts[2]         # 두 번째 폴더 = 작성자
+                elif len(path_parts) == 2:
+                    tech_category = path_parts[1]
+                    author = None
                 else:
                     tech_category = 'Uncategorized'
                     author = None
@@ -107,7 +87,7 @@ def generate_readme():
             for file_info in files:
                 readme_content += f"- [{file_info['title']}]({file_info['path']})\n"
 
-        # 작성자 없는 파일들
+        # 작성자 폴더 없이 바로 있는 파일들
         if '_no_author' in authors:
             files = sorted(authors['_no_author'], key=lambda x: x['modified'], reverse=True)
             for file_info in files:
