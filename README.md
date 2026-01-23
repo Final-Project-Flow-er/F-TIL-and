@@ -4,47 +4,53 @@
 
 [![Auto-update README](https://github.com/Final-Project-Flow-er/F-TIL-and/actions/workflows/update-readme.yml/badge.svg)](https://github.com/Final-Project-Flow-er/F-TIL-and/actions/workflows/update-readme.yml)
 
-**Last Updated**: 2026-01-23 02:13:04
+**Last Updated**: 2026-01-23 02:21:54
 
 ---
 
 ## 📚 목차
 
 
-### 260122
+### 김성은
 
-- [스프링 배치란?](유찬연/260122/Spring-Batch.md)
+- [Jira란?](Jira/김성은/jira.md)
 
-### 260123
+### 김윤경
 
-- [Spring Batch의 용어](유찬연/260123/Spring-Batch.md)
+- [Spring Batch](Spring/김윤경/20260122_Spring Batch.md)
+- [Spring Batch](Spring/김윤경/Spring Batch.md)
 
-### Jira
+### 김채우
 
-- [Jira란?](김성은/Jira/jira.md)
+- [QueryDSL](JPA/김채우/querydsl.md)
+- [Mapping](JPA/김채우/mapping.md)
+- [Dynamic Query](JPA/김채우/dynamic-query.md)
 
-### Redis
+### 유찬연
 
-- [📝 공부 내용](조윤호/Redis/DistributedLock.md)
-- [1. Redis란?](조윤호/Redis/Redis.md)
+- [Spring Batch의 용어](Spring/유찬연/Spring-Batch-Terms.md)
+- [스프링 배치란?](Spring/유찬연/Spring-Batch.md)
 
-### Uncategorized
+### 조윤호
 
-- [Spring Batch](김윤경/Spring Batch.md)
-- [QueryDSL](JPA/querydsl.md)
+- [DistributedLock](Redis/조윤호/DistributedLock.md)
+- [1. Redis란?](Redis/조윤호/Redis.md)
 
 ---
 
 ## 📝 최근 업데이트
 
-- **2026-01-23** - [Spring Batch의 용어](유찬연/260123/Spring-Batch.md)
-- **2026-01-23** - [📝 공부 내용](조윤호/Redis/DistributedLock.md)
-- **2026-01-23** - [1. Redis란?](조윤호/Redis/Redis.md)
-- **2026-01-23** - [Spring Batch](김윤경/Spring Batch.md)
-- **2026-01-23** - [QueryDSL](JPA/querydsl.md)
-- **2026-01-23** - [Jira란?](김성은/Jira/jira.md)
-- **2026-01-23** - [스프링 배치란?](유찬연/260122/Spring-Batch.md)
+- **2026-01-23** - [Spring Batch의 용어](Spring/유찬연/Spring-Batch-Terms.md)
+- **2026-01-23** - [스프링 배치란?](Spring/유찬연/Spring-Batch.md)
+- **2026-01-23** - [QueryDSL](JPA/김채우/querydsl.md)
+- **2026-01-23** - [Mapping](JPA/김채우/mapping.md)
+- **2026-01-23** - [Dynamic Query](JPA/김채우/dynamic-query.md)
+- **2026-01-23** - [Spring Batch](Spring/김윤경/20260122_Spring Batch.md)
+- **2026-01-23** - [Spring Batch](Spring/김윤경/Spring Batch.md)
+- **2026-01-23** - [Jira란?](Jira/김성은/jira.md)
+- **2026-01-23** - [DistributedLock](Redis/조윤호/DistributedLock.md)
+- **2026-01-23** - [1. Redis란?](Redis/조윤호/Redis.md)
 
 ---
 
-**Total**: 7 TILs
+**Total**: 10 TILs
