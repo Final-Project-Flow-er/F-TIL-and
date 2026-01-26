@@ -2,7 +2,7 @@
 
 > 팀원들이 매일 배운 내용을 기록합니다.
 
-**Last Updated**: 2026-01-26 08:14:42
+**Last Updated**: 2026-01-26 08:38:58
 
 ---
 
@@ -27,8 +27,8 @@
 
 **👤 김채우**
 
-- [Index](Database/김채우/Index.md)
 - [Cache](Database/김채우/Cache.md)
+- [Index](Database/김채우/Index.md)
 
 
 ### Distributed-System
@@ -42,6 +42,7 @@
 
 **👤 김윤경**
 
+- [Pdf 생성 iText](JAVA/김윤경/iText와 PDF.md)
 - [BigDecimal](JAVA/김윤경/BigDecimal.md)
 
 
@@ -90,23 +91,23 @@
 
 **👤 김채우**
 
-- [Spring Event](Spring-Event/김채우/Spring-Event.md)
+- [Spring Event](Spring-Event/김채우/Spring Event.md)
 
 ---
 
 ## 📝 최근 업데이트
 
+- **2026-01-26** - [Spring Batch](Spring/김윤경/Spring Batch.md) - 김윤경
+- **2026-01-26** - [Builder와 정적 팩토리 메소드](Spring/김채우/Builder-static-factory-method.md) - 김채우
+- **2026-01-26** - [Spring Batch의 용어](Spring/유찬연/Spring-Batch-Terms.md) - 유찬연
+- **2026-01-26** - [스프링 배치란?](Spring/유찬연/Spring-Batch.md) - 유찬연
+- **2026-01-26** - [Pdf 생성 iText](JAVA/김윤경/iText와 PDF.md) - 김윤경
 - **2026-01-26** - [BigDecimal](JAVA/김윤경/BigDecimal.md) - 김윤경
-- **2026-01-26** - [Index](Database/김채우/Index.md) - 김채우
 - **2026-01-26** - [QueryDSL](JPA/김채우/querydsl.md) - 김채우
 - **2026-01-26** - [Mapping](JPA/김채우/mapping.md) - 김채우
 - **2026-01-26** - [Dynamic Query](JPA/김채우/dynamic-query.md) - 김채우
 - **2026-01-26** - [BuilderBuilder, BuilderExpression](JPA/김채우/BooleanBuilder.md) - 김채우
-- **2026-01-26** - [Spring Event](Spring-Event/김채우/Spring Event.md) - 김채우
-- **2026-01-26** - [Distribute Transaction](Distributed-System/김채우/Distributed-Transaction.md) - 김채우
-- **2026-01-26** - [Spring Batch](Spring/김윤경/Spring Batch.md) - 김윤경
-- **2026-01-26** - [Builder와 정적 팩토리 메소드](Spring/김채우/Builder-static-factory-method.md) - 김채우
 
 ---
 
-**Total**: 18 TILs
+**Total**: 19 TILs
