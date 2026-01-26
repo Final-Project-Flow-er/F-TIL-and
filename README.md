@@ -90,7 +90,7 @@
 
 **👤 김채우**
 
-- [Spring Event](Spring-Event/김채우/Spring Event.md)
+- [Spring Event](Spring-Event/김채우/Spring-Event.md)
 
 ---
 
