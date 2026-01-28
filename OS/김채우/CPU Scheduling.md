@@ -1,4 +1,4 @@
-CPU Scheduling
+# CPU Scheduling
 
 ---
 > 운영체제의 핵심 기능으로 여러 프로세스 중 어떤 프로세스에게 CPU를 할당하지 결정하는 것
