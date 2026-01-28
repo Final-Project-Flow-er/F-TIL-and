@@ -2,7 +2,7 @@
 
 > 팀원들이 매일 배운 내용을 기록합니다.
 
-**Last Updated**: 2026-01-28 10:55:09
+**Last Updated**: 2026-01-28 11:19:03
 
 ---
 
@@ -50,6 +50,7 @@
 **👤 김윤경**
 
 - [BigDecimal](JAVA/김윤경/BigDecimal.md)
+- [Apache POI](JAVA/김윤경/Apache POI.md)
 - [Pdf 생성 iText](JAVA/김윤경/iText-PDF.md)
 
 
@@ -134,4 +135,4 @@
 
 ---
 
-**Total**: 25 TILs
+**Total**: 26 TILs
