@@ -2,7 +2,7 @@
 
 > 팀원들이 매일 배운 내용을 기록합니다.
 
-**Last Updated**: 2026-01-28 11:19:03
+**Last Updated**: 2026-01-28 11:19:44
 
 ---
 
@@ -50,8 +50,8 @@
 **👤 김윤경**
 
 - [BigDecimal](JAVA/김윤경/BigDecimal.md)
-- [Apache POI](JAVA/김윤경/Apache POI.md)
 - [Pdf 생성 iText](JAVA/김윤경/iText-PDF.md)
+- [Apache POI](JAVA/김윤경/Apache_POI.md)
 
 
 ### JPA
@@ -122,7 +122,6 @@
 
 ## 📝 최근 업데이트
 
-- **2026-01-28** - [CPU Scheduling](OS/김채우/CPU-Scheduling.md) - 김채우
 - **2026-01-28** - [Spring Event](Spring-Event/김채우/Spring-Event.md) - 김채우
 - **2026-01-28** - [Spring Batch](Spring/김윤경/Spring-Batch.md) - 김윤경
 - **2026-01-28** - [Builder와 정적 팩토리 메소드](Spring/김채우/Builder-static-factory-method.md) - 김채우
@@ -132,6 +131,7 @@
 - **2026-01-28** - [Redis(Remote Dictionary Server)](Redis/유찬연.md)
 - **2026-01-28** - [DistributedLock](Redis/조윤호/DistributedLock.md) - 조윤호
 - **2026-01-28** - [Redis 라이브러리](Redis/조윤호/RedisLibrary.md) - 조윤호
+- **2026-01-28** - [1. Redis란?](Redis/조윤호/Redis.md) - 조윤호
 
 ---
 
