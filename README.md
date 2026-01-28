@@ -74,7 +74,7 @@
 
 **👤 김채우**
 
-- [CPU Scheduling](OS/김채우/CPU Scheduling.md)
+- [CPU Scheduling](OS/김채우/CPU-Scheduling.md)
 
 
 ### Redis
