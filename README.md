@@ -2,7 +2,7 @@
 
 > 팀원들이 매일 배운 내용을 기록합니다.
 
-**Last Updated**: 2026-01-28 08:29:26
+**Last Updated**: 2026-01-28 10:55:09
 
 ---
 
@@ -88,6 +88,7 @@
 - [DistributedLock](Redis/조윤호/DistributedLock.md)
 - [Redis 라이브러리](Redis/조윤호/RedisLibrary.md)
 - [1. Redis란?](Redis/조윤호/Redis.md)
+- [Redis(Remote Dictionary Server)](Redis/유찬연.md)
 
 
 ### Spring
@@ -120,17 +121,17 @@
 
 ## 📝 최근 업데이트
 
+- **2026-01-28** - [CPU Scheduling](OS/김채우/CPU-Scheduling.md) - 김채우
 - **2026-01-28** - [Spring Event](Spring-Event/김채우/Spring-Event.md) - 김채우
 - **2026-01-28** - [Spring Batch](Spring/김윤경/Spring-Batch.md) - 김윤경
 - **2026-01-28** - [Builder와 정적 팩토리 메소드](Spring/김채우/Builder-static-factory-method.md) - 김채우
 - **2026-01-28** - [Spring Security란?](Spring/김성은/spring-security.md) - 김성은
 - **2026-01-28** - [Spring Batch의 용어](Spring/유찬연/Spring-Batch-Terms.md) - 유찬연
 - **2026-01-28** - [스프링 배치란?](Spring/유찬연/Spring-Batch.md) - 유찬연
+- **2026-01-28** - [Redis(Remote Dictionary Server)](Redis/유찬연.md)
 - **2026-01-28** - [DistributedLock](Redis/조윤호/DistributedLock.md) - 조윤호
 - **2026-01-28** - [Redis 라이브러리](Redis/조윤호/RedisLibrary.md) - 조윤호
-- **2026-01-28** - [1. Redis란?](Redis/조윤호/Redis.md) - 조윤호
-- **2026-01-28** - [CPU Scheduling](OS/김채우/CPU-Scheduling.md) - 김채우
 
 ---
 
-**Total**: 24 TILs
+**Total**: 25 TILs
