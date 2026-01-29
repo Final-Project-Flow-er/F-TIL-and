@@ -2,7 +2,7 @@
 
 > 팀원들이 매일 배운 내용을 기록합니다.
 
-**Last Updated**: 2026-01-29 09:57:56
+**Last Updated**: 2026-01-29 10:55:08
 
 ---
 
@@ -14,6 +14,10 @@
 **👤 김성은**
 
 - [멀티 모듈이란?](Architecture/김성은/multi-module.md)
+
+**👤 김채우**
+
+- [Domain Driven Development](Architecture/김채우/DDD.md)
 
 
 ### Concurrency
@@ -133,17 +137,17 @@
 
 ## 📝 최근 업데이트
 
-- **2026-01-29** - [Spring Event](Spring-Event/김채우/Spring-Event.md) - 김채우
 - **2026-01-29** - [Spring Batch](Spring/김윤경/Spring-Batch.md) - 김윤경
 - **2026-01-29** - [Builder와 정적 팩토리 메소드](Spring/김채우/Builder-static-factory-method.md) - 김채우
 - **2026-01-29** - [Spring Security란?](Spring/김성은/spring-security.md) - 김성은
 - **2026-01-29** - [Spring Batch의 용어](Spring/유찬연/Spring-Batch-Terms.md) - 유찬연
 - **2026-01-29** - [스프링 배치란?](Spring/유찬연/Spring-Batch.md) - 유찬연
-- **2026-01-29** - [Redis(Remote Dictionary Server)](Redis/유찬연.md)
-- **2026-01-29** - [DistributedLock](Redis/조윤호/DistributedLock.md) - 조윤호
-- **2026-01-29** - [Redis 라이브러리](Redis/조윤호/RedisLibrary.md) - 조윤호
-- **2026-01-29** - [1. Redis란?](Redis/조윤호/Redis.md) - 조윤호
+- **2026-01-29** - [CPU Scheduling](OS/김채우/CPU-Scheduling.md) - 김채우
+- **2026-01-29** - [QueryDSL](JPA/김채우/querydsl.md) - 김채우
+- **2026-01-29** - [Mapping](JPA/김채우/mapping.md) - 김채우
+- **2026-01-29** - [Dynamic Query](JPA/김채우/dynamic-query.md) - 김채우
+- **2026-01-29** - [BuilderBuilder, BuilderExpression](JPA/김채우/BooleanBuilder.md) - 김채우
 
 ---
 
-**Total**: 28 TILs
+**Total**: 29 TILs
