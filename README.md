@@ -2,7 +2,7 @@
 
 > 팀원들이 매일 배운 내용을 기록합니다.
 
-**Last Updated**: 2026-01-29 07:38:06
+**Last Updated**: 2026-01-29 09:57:56
 
 ---
 
@@ -79,6 +79,13 @@
 - [Jira란?](Jira/김성은/jira.md)
 
 
+### Network
+
+**👤 김성은**
+
+- [OSI 7계층](Network/김성은/network.md)
+
+
 ### OS
 
 **👤 김채우**
@@ -126,17 +133,17 @@
 
 ## 📝 최근 업데이트
 
+- **2026-01-29** - [Spring Event](Spring-Event/김채우/Spring-Event.md) - 김채우
 - **2026-01-29** - [Spring Batch](Spring/김윤경/Spring-Batch.md) - 김윤경
 - **2026-01-29** - [Builder와 정적 팩토리 메소드](Spring/김채우/Builder-static-factory-method.md) - 김채우
 - **2026-01-29** - [Spring Security란?](Spring/김성은/spring-security.md) - 김성은
 - **2026-01-29** - [Spring Batch의 용어](Spring/유찬연/Spring-Batch-Terms.md) - 유찬연
 - **2026-01-29** - [스프링 배치란?](Spring/유찬연/Spring-Batch.md) - 유찬연
-- **2026-01-29** - [CPU Scheduling](OS/김채우/CPU-Scheduling.md) - 김채우
-- **2026-01-29** - [QueryDSL](JPA/김채우/querydsl.md) - 김채우
-- **2026-01-29** - [Mapping](JPA/김채우/mapping.md) - 김채우
-- **2026-01-29** - [Dynamic Query](JPA/김채우/dynamic-query.md) - 김채우
-- **2026-01-29** - [BuilderBuilder, BuilderExpression](JPA/김채우/BooleanBuilder.md) - 김채우
+- **2026-01-29** - [Redis(Remote Dictionary Server)](Redis/유찬연.md)
+- **2026-01-29** - [DistributedLock](Redis/조윤호/DistributedLock.md) - 조윤호
+- **2026-01-29** - [Redis 라이브러리](Redis/조윤호/RedisLibrary.md) - 조윤호
+- **2026-01-29** - [1. Redis란?](Redis/조윤호/Redis.md) - 조윤호
 
 ---
 
-**Total**: 27 TILs
+**Total**: 28 TILs
