@@ -2,7 +2,7 @@
 
 > 팀원들이 매일 배운 내용을 기록합니다.
 
-**Last Updated**: 2026-01-29 14:37:25
+**Last Updated**: 2026-01-30 11:27:07
 
 ---
 
@@ -94,6 +94,9 @@
 
 **👤 김채우**
 
+- [Memory Fragmentation](OS/김채우/Memory Fragmentation.md)
+- [Demand Paging](OS/김채우/Demand-Paging.md)
+- [Virtual Memory](OS/김채우/Virtual-Memory.md)
 - [CPU Scheduling](OS/김채우/CPU-Scheduling.md)
 
 
@@ -141,17 +144,17 @@
 
 ## 📝 최근 업데이트
 
-- **2026-01-29** - [CPU Scheduling](OS/김채우/CPU-Scheduling.md) - 김채우
-- **2026-01-29** - [Spring Event](Spring-Event/김채우/Spring-Event.md) - 김채우
-- **2026-01-29** - [Spring Batch](Spring/김윤경/Spring-Batch.md) - 김윤경
-- **2026-01-29** - [Builder와 정적 팩토리 메소드](Spring/김채우/Builder-static-factory-method.md) - 김채우
-- **2026-01-29** - [Spring Security란?](Spring/김성은/spring-security.md) - 김성은
-- **2026-01-29** - [Spring Batch의 용어](Spring/유찬연/Spring-Batch-Terms.md) - 유찬연
-- **2026-01-29** - [스프링 배치란?](Spring/유찬연/Spring-Batch.md) - 유찬연
-- **2026-01-29** - [Redis(Remote Dictionary Server)](Redis/유찬연.md)
-- **2026-01-29** - [Redis 적용 케이스](Redis/유찬연/Redis.md) - 유찬연
-- **2026-01-29** - [DistributedLock](Redis/조윤호/DistributedLock.md) - 조윤호
+- **2026-01-30** - [Memory Fragmentation](OS/김채우/Memory Fragmentation.md) - 김채우
+- **2026-01-30** - [Demand Paging](OS/김채우/Demand-Paging.md) - 김채우
+- **2026-01-30** - [Virtual Memory](OS/김채우/Virtual-Memory.md) - 김채우
+- **2026-01-30** - [Spring Event](Spring-Event/김채우/Spring-Event.md) - 김채우
+- **2026-01-30** - [Spring Batch](Spring/김윤경/Spring-Batch.md) - 김윤경
+- **2026-01-30** - [Builder와 정적 팩토리 메소드](Spring/김채우/Builder-static-factory-method.md) - 김채우
+- **2026-01-30** - [Spring Security란?](Spring/김성은/spring-security.md) - 김성은
+- **2026-01-30** - [Spring Batch의 용어](Spring/유찬연/Spring-Batch-Terms.md) - 유찬연
+- **2026-01-30** - [스프링 배치란?](Spring/유찬연/Spring-Batch.md) - 유찬연
+- **2026-01-30** - [Redis(Remote Dictionary Server)](Redis/유찬연.md)
 
 ---
 
-**Total**: 30 TILs
+**Total**: 33 TILs
